@@ -23,6 +23,8 @@ The provisioning process is based on Chef. It depends on the following cookbooks
 - Download and install VirtualBox from: https://www.virtualbox.org/wiki/Downloads
 - Download and install Vagrant from: https://downloads.chef.io/chef-dk/
 
+Then execute following shell commands:
+
     git clone https://github.com/freedev/vagrant-tomee.git
     cd vagrant-tomee
     vagrant up
