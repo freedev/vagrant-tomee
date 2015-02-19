@@ -6,12 +6,7 @@ description      'Vagrant Installs/Configures TomEE'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '0.1.0'
 
-depends 'tomee', '~> 0.9.0'
-# depends 'java', '~> 1.31.0'
-# depends 'openssl', '~> 3.0.2'
-# depends 'maven', '~> 1.2.0'
-# depends 'tomcat', '~> 0.17.0'
-# depends 'net-scp', '~> 1.2.1'
+depends 'tomee', '~> 0.10.0'
 
 supports "debian", ">= 0.0.0"
 supports "ubuntu", ">= 0.0.0"
