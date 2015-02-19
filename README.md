@@ -19,9 +19,9 @@ The provisioning process is based on Chef. It depends on the following cookbooks
 
 ### Quick start
 
-Download and isntall Git from: http://git-scm.com/download/mac
-Download and install Vagrant from: https://downloads.chef.io/chef-dk/
-Download and install VirtualBox from: https://www.virtualbox.org/wiki/Downloads
+Download and install Git from: http://git-scm.com/download/mac <br/>
+Download and install Vagrant from: https://downloads.chef.io/chef-dk/ <br/>
+Download and install VirtualBox from: https://www.virtualbox.org/wiki/Downloads <br/>
 
     git clone https://github.com/freedev/vagrant-tomee.git
     cd vagrant-tomee
