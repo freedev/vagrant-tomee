@@ -11,7 +11,7 @@ Used with: Centos (6.2, 6.5) and Ubuntu (14.04)
 
 ### Provisioning
 
-The provisioning process is based on Chef. 
+The provisioning process is based on Chef. It depends on the following cookbooks:
 
 - tomee
 - openssl
@@ -19,10 +19,17 @@ The provisioning process is based on Chef.
 
 ### Quick start
 
-Download Vagrant from: https://downloads.chef.io/chef-dk/
+Download and isntall Git from: http://git-scm.com/download/mac
+Download and install Vagrant from: https://downloads.chef.io/chef-dk/
+Download and install VirtualBox from: https://www.virtualbox.org/wiki/Downloads
 
-For redhat execute:
+    git clone https://github.com/freedev/vagrant-tomee.git
+    cd vagrant-tomee
+    vagrant up
 
+when the virtual machine is up and running Tomee will be available at connecting at:
+
+- http://localhost:8080/
 
 ###Prerequisites
 This Vagrantfile installs a Linux Ubuntu 14.04 vm, and it is based on VirtualBox<br>
