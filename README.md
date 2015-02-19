@@ -1,6 +1,19 @@
 # vagrant-tomee
 
 This Vagrantfile create an Linux VM with Apache TomEE. 
+This Vagrantfile create a Linux Ubuntu 14.04 VM, based on VirtualBox<br>
+Then installs Java 8 and TomEE.
+
+You can choose the version of Tomee (web-profile, jax-rs, plus, plume) adding the following lines
+into the chef.json parameter.
+
+```
+      :tomee => {
+        :deploy_multiple_instances => false,
+        :tomee_url : "http://apache.fastbull.org/tomee/tomee-1.7.1/apache-tomee-1.7.1-plume.tar.gz"
+      }
+```
+
 
 ## Supported Platforms
 
@@ -34,7 +47,9 @@ when the virtual machine is up and running Tomee will be available at:
 - http://localhost:8080/
 
 ###Prerequisites
-This Vagrantfile installs a Linux Ubuntu 14.04 vm, and it is based on VirtualBox<br>
+
+- Vagrant 
+- VirtualBox
 
 
 ## License and Authors
