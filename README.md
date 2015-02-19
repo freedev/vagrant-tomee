@@ -8,10 +8,10 @@ You can choose the version of Tomee (web-profile, jax-rs, plus, plume) adding th
 into the chef.json parameter.
 
 ```
-      :tomee => {
-        :deploy_multiple_instances => false,
-        :tomee_url : "http://apache.fastbull.org/tomee/tomee-1.7.1/apache-tomee-1.7.1-plume.tar.gz"
-      }
+:tomee => {
+  :deploy_multiple_instances => false,
+  :tomee_url : "http://apache.fastbull.org/tomee/tomee-1.7.1/apache-tomee-1.7.1-plume.tar.gz"
+}
 ```
 
 
