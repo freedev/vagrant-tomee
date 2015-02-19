@@ -29,7 +29,7 @@ Then execute following shell commands:
     cd vagrant-tomee
     vagrant up
 
-when the virtual machine is up and running Tomee will be available at connecting at:
+when the virtual machine is up and running Tomee will be available at:
 
 - http://localhost:8080/
 
