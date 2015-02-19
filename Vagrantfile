@@ -163,7 +163,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     chef.run_list = [
       'recipe[tomee::common-packages]',
       'recipe[java::default]',
-      'recipe[tomee::tomee]'
+      'recipe[tomee::default]'
     ]
   end
 end
